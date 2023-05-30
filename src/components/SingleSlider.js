@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx";
+// import { RxDotFilled } from "react-icons/rx";
 import { AiOutlineMinus } from "react-icons/Ai";
 
 const slides = [

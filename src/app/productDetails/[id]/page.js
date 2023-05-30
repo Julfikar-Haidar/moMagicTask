@@ -2,7 +2,7 @@
 import Error from "@/components/Error";
 import { useGetProductQuery } from "@/features/api/apiSlice";
 import React from "react";
-import CardProductDetails from "./cardProductDetails";
+import CardProductDetails from "./CardProductDetails";
 
 const ProductDetails = ({ params: { id } }) => {
   const { data: producDetail, isLoading, isError } = useGetProductQuery(id);
